@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block Title %}
+    Signup-Acknowldged
+{% endblock %}
+
+{% block content %}
+    <h2>The user has been successfully created.</h2>
+    <div><a href="{% url 'signup' %}">Create a new user</a></div>
+{% endblock %}
